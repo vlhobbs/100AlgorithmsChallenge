@@ -35,3 +35,9 @@ A non-empty array of non-empty equal-length strings.
 - **[output] array.string**
 
 The same matrix of characters, framed with a border of asterisks of width 1.
+
+Student note: I feel like this should be doable with a forEach loop on the array,
+but for some reason I am having the worst time with the syntax. Even after
+creating a helper function to do what it needs me to do I am still getting errors.
+Will need to ask about how forEach works in this language and look for examples
+besides just printing to console.
