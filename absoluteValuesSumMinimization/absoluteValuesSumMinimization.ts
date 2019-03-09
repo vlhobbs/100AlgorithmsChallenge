@@ -22,37 +22,37 @@ function absoluteValuesSumMinimization(a: number[]): number {
 
 
 //Test cases from README.md
- console.log(absoluteValuesSumMinimization([2, 4, 7]));
- console.log(absoluteValuesSumMinimization([2, 4, 7, 6]));
+ console.log(absoluteValuesSumMinimization([2, 4, 7])); //4
+ console.log(absoluteValuesSumMinimization([2, 4, 7, 6])); //4
 
  //testing answers for the four-item array.
 
- console.log(Math.abs(2-2) + Math.abs(4-2) + Math.abs(7-2) + Math.abs(6-2));
- console.log(Math.abs(2-4) + Math.abs(4-4) + Math.abs(7-4) + Math.abs(6-4));
- console.log(Math.abs(2-6) + Math.abs(4-6) + Math.abs(7-6) + Math.abs(6-6));
- console.log(Math.abs(2-7) + Math.abs(4-7) + Math.abs(7-7) + Math.abs(6-7));
+ console.log(Math.abs(2-2) + Math.abs(4-2) + Math.abs(7-2) + Math.abs(6-2)); //11
+ console.log(Math.abs(2-4) + Math.abs(4-4) + Math.abs(7-4) + Math.abs(6-4)); //7
+ console.log(Math.abs(2-6) + Math.abs(4-6) + Math.abs(7-6) + Math.abs(6-6)); //7
+ console.log(Math.abs(2-7) + Math.abs(4-7) + Math.abs(7-7) + Math.abs(6-7)); //9
 
  //Conclusion: Both 4 and 6 give the minimum value; 4 is the lower value and is rightly returned
 
- console.log(absoluteValuesSumMinimization([2, 4, 7, 6, 6]));
+ console.log(absoluteValuesSumMinimization([2, 4, 7, 6, 6])); //6
  
  //testing the answers for the five-item array
 
- console.log(Math.abs(2-2) + Math.abs(4-2) + Math.abs(7-2) + Math.abs(6-2) + Math.abs(6-2));
- console.log(Math.abs(2-4) + Math.abs(4-4) + Math.abs(7-4) + Math.abs(6-4) + Math.abs(6-4));
- console.log(Math.abs(2-6) + Math.abs(4-6) + Math.abs(7-6) + Math.abs(6-6) + Math.abs(6-6));
- console.log(Math.abs(2-7) + Math.abs(4-7) + Math.abs(7-7) + Math.abs(6-7) + Math.abs(6-7));
+ console.log(Math.abs(2-2) + Math.abs(4-2) + Math.abs(7-2) + Math.abs(6-2) + Math.abs(6-2)); //15
+ console.log(Math.abs(2-4) + Math.abs(4-4) + Math.abs(7-4) + Math.abs(6-4) + Math.abs(6-4)); //9
+ console.log(Math.abs(2-6) + Math.abs(4-6) + Math.abs(7-6) + Math.abs(6-6) + Math.abs(6-6)); //7
+ console.log(Math.abs(2-7) + Math.abs(4-7) + Math.abs(7-7) + Math.abs(6-7) + Math.abs(6-7)); //10
 
 // By the wording of the actual question, 6 is the answer.
 
- console.log(absoluteValuesSumMinimization([2, 4, 7, 6, 6, 8]));
+ console.log(absoluteValuesSumMinimization([2, 4, 7, 6, 6, 8])); //6
  
  //testing the answers for the six-item array
 
- console.log(Math.abs(2-2) + Math.abs(4-2) + Math.abs(7-2) + Math.abs(6-2) + Math.abs(6-2) + Math.abs(8-2));
- console.log(Math.abs(2-4) + Math.abs(4-4) + Math.abs(7-4) + Math.abs(6-4) + Math.abs(6-4) + Math.abs(8-4));
- console.log(Math.abs(2-6) + Math.abs(4-6) + Math.abs(7-6) + Math.abs(6-6) + Math.abs(6-6) + Math.abs(8-6));
- console.log(Math.abs(2-7) + Math.abs(4-7) + Math.abs(7-7) + Math.abs(6-7) + Math.abs(6-7) + Math.abs(8-7));
- console.log(Math.abs(2-8) + Math.abs(4-8) + Math.abs(7-8) + Math.abs(6-8) + Math.abs(6-8) + Math.abs(8-8));
+ console.log(Math.abs(2-2) + Math.abs(4-2) + Math.abs(7-2) + Math.abs(6-2) + Math.abs(6-2) + Math.abs(8-2)); //21
+ console.log(Math.abs(2-4) + Math.abs(4-4) + Math.abs(7-4) + Math.abs(6-4) + Math.abs(6-4) + Math.abs(8-4)); //13
+ console.log(Math.abs(2-6) + Math.abs(4-6) + Math.abs(7-6) + Math.abs(6-6) + Math.abs(6-6) + Math.abs(8-6)); //9
+ console.log(Math.abs(2-7) + Math.abs(4-7) + Math.abs(7-7) + Math.abs(6-7) + Math.abs(6-7) + Math.abs(8-7)); //11
+ console.log(Math.abs(2-8) + Math.abs(4-8) + Math.abs(7-8) + Math.abs(6-8) + Math.abs(6-8) + Math.abs(8-8)); //15
  
  //As above: By the question asked in the readme, 6 is the answer.
