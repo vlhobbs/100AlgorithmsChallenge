@@ -22,5 +22,6 @@ return (outOfSync <= 1);
 I can't think of a simpler way to do this
 Count variable, find numbers that are out of sync
 why is this not giving me out-of-bounds on lower indices?
+I should solve this on Java and try to see what is going on if I use this method
 
 */
