@@ -23,3 +23,7 @@ alternatingSums(a) = [180, 105].
 45 ≤ a[i] ≤ 100.
 
 **[output] array.integer**
+
+The output is a two-item array.
+Team one: index mod 2 = 0 (index 0)
+Team two: index mod 2 = 1 (index 1)

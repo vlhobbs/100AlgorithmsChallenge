@@ -3,6 +3,10 @@
 ---
 Check whether the given string is a subsequence of the plaintext alphabet.
 
+(IN OTHER WORDS: each letter appears only once and in ascending order to last ones.
+So far easiest way seems to be to use charcodes to tell if any of the letters
+are out of order. The next one should always be larger than the one behind it.)
+
 **Example**
 
 - For s = "effg" or s = "cdce", the output should be
