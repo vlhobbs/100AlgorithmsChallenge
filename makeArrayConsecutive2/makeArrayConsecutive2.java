@@ -13,7 +13,7 @@ class makeArrayConsecutive2{
         }
         return statCount;
     }    
-    //Java doesn't have an easy built-in to sort arrays like JS/TS
+    //Java doesn't have an easy built-in to find elements like JS/TS
     //so I wrote a helper function of my own. I will save this for
     //later since I'm sure I'll need it again.
 
