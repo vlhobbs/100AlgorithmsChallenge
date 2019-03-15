@@ -12,12 +12,11 @@ class makeArrayConsecutive2{
             }
         }
         return statCount;
-    }
-    
+    }    
     //Java doesn't have an easy built-in to sort arrays like JS/TS
     //so I wrote a helper function of my own. I will save this for
     //later since I'm sure I'll need it again.
-    
+
     public static boolean contains(int testInt, int[] arr){
         boolean doesContain = false;
         for (int i = 0; i < arr.length; i++)
