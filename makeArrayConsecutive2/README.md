@@ -13,8 +13,8 @@ makeArrayConsecutive2(statues) = 3.
 Ratiorg needs statues of sizes 4, 5 and 7.
 
 **Hints**
--   sort()
--   indexOf()
+-   sort() - sorts by some criteria. I think it mutates array
+-   indexOf() - returns the index of an item or -1 if not found
 
 **Input/Output**
 
@@ -31,4 +31,4 @@ An array of distinct non-negative integers.
 
 - **[output] integer**
 
-The minimal number of statues that need to be added to existing statues such that it contains every integer size from an interval [L, R] (for some L, R) and no other sizes.
+The minimal number of statues that need to be added to existing statues such that it contains every integer size from an interval [L, R] (for some L, R) and no other sizes. So the easiest way is to sort the array, find the smallest value and the largest value and then add +1 to return if any of the values between it aren't found.
