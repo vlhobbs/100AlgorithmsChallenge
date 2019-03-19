@@ -27,3 +27,6 @@ arrayMaximalAdjacentDifference(inputArray) = 3.
 - **[output] integer**
 
 The maximal absolute difference.
+
+(Java answer is similar to TS answer, just have to pay more attention
+to the index because it can overflow)
