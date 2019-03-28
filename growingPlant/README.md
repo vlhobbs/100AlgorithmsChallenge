@@ -39,3 +39,5 @@ A positive integer representing the threshold.
 - **[output] integer**
 
 The number of days that it will take for the plant to reach/pass desiredHeight (including the last day in the total count).
+
+I don't know how to articulate this question. Say the answer is 1000 and the plant grows 1000 meters in one day, unlikely as that sounds. Is the answer 1 or 2, counting the night? I am guessing 1. That's what I am going to go with.
