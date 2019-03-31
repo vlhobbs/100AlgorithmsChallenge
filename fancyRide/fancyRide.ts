@@ -4,7 +4,7 @@ function fancyRide(l: number, fares: number[]): string {
   let uberTypes:string[] = ["UberX", "UberXL", "UberPlus", "UberBlack", "UberSUV"]
   let credit:number = 20; //making a var so that I can make it an input later
   //iterate from top down - there are always fares[0] through fares[4]
-  for(let i = fares.length - 1; i>=0; i--){
+  for(let i = fares.length - 1; i >= 0; i--){
     if (!((fares[i] * l) > credit))
     return uberTypes[i];
   }
