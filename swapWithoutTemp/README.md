@@ -1,3 +1,5 @@
+### Added by vlhobbs
+
 ---
 You have two integers, a and b. You want to swap these two integers without using a third temporary value to hold the value of these integers. 
 
@@ -16,7 +18,7 @@ Two integers.
 
 *Guaranteed constraints:*
 
-10000 ≤ a, b ≤ 10000
+-10000 ≤ a, b ≤ 10000
 
 -    **[output] number[]**
 
