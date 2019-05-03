@@ -33,3 +33,21 @@ A string containing at least one digit.
 - **[output] integer**
 The element in a that occurs in the array more than once and has the minimal index for its second occurrence. If there are no such elements, return -1.
 
+***Solution notes***
+
+I am not entirely sure that the answer in this would work on codefights,
+because the final test has a thousand items in the array and that kept timing out. I used an adaptation of my Java answer from that question. 
+
+- If array is one or zero items, return -1 (no possible duplicates)
+
+- Otherwise, set a number value for position to the absolute value of the current number in the for loop + 1 (so for the first example, it would be 2 - 1 or 1.)
+
+- Check to see if the value of a at index *position* is a positive or negative number. 
+
+- If it is a positive number, then change the item in a at the position index to a negative number. 
+
+- If it is already negative, that means we've found the number corresponding to this position in the array already! We can return position + 1 which will give us the position (counting up from 1) of that value in the array. 
+
+- If that for loop returns no number, then return -1, as no duplicates were found.
+
+The key to this is that all of the values must be between 1 and (max index of a) + 1. 
