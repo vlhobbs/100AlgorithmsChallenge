@@ -32,3 +32,10 @@ findEmailDomain(address) = "example.org".
 
 - **[output] string**
 
+The domain portion of the e-mail.
+
+**Notes**
+
+Completed, only requires the index of the last @, then a slice of that index + 1 to 
+create. Only works if e-mail is valid, would need additional logic for possibility 
+of invalid e-mail.

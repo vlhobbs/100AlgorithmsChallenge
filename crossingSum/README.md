@@ -43,3 +43,8 @@ Here (2 + 2 + 2 + 2) + (1 + 3) = 12.
     0 ≤ b < matrix[i].length.
 
 -   **[output] integer**
+
+**Notes**
+
+I am sure there is an easier way to do this. I simply used loops and
+excluded item a of the column for the sum. I will come back to this.
