@@ -25,5 +25,11 @@ alternatingSums(a) = [180, 105].
 **[output] array.integer**
 
 The output is a two-item array.
-Team one: index mod 2 = 0 (index 0)
-Team two: index mod 2 = 1 (index 1)
+
+**Notes**
+
+Solved: *Yes*
+
+Team one: index % 2 = 0 (index 0)
+
+Team two: index % 2 = 1 (index 1)

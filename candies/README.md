@@ -30,4 +30,10 @@ candies(n, m) = 9.
 -   [output] integer 
     The total number of pieces of candy the children will eat provided they eat as much as they can and all children eat the same amount.
 
-    (Basically the integer quotient of m/n times n. I figured out how to do that and made a one-line solution (~~(m/n) will get you the integer division properly.) It works properly with precedence as well.)
+    **Notes**
+
+    Solved: *Yes*
+
+    This is asking for the integer quotient of m/n, emultiplied by m. 
+    In TS syntax (possibly JS) the line ~~(m/n) will get you the integer quotient. Also 
+    it respects proper precedence. 

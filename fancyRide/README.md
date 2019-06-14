@@ -38,4 +38,8 @@ A strictly increasing array of 5 elements. fares[0] stands for dollars per mile 
 
 The car that you should choose: "UberX", "UberXL", "UberPlus", "UberBlack" or "UberSUV". It is guaranteed that you can afford at least one of them.
 
+**Notes**
+
+Solved: *Yes*
+
 Easiest way to deal with this, IMO: Start from the top, see if it's more than you can afford, and work down.

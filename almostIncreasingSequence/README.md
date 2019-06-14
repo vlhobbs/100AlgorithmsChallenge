@@ -32,3 +32,10 @@ You can remove 3 from the array to get the strictly increasing sequence [1, 2]. 
 **[output] boolean**
 
 Return true if it is possible to remove one element from the array in order to get a strictly increasing sequence, otherwise return false.
+
+**Notes**
+
+Solved: *Yes*
+
+This really highlights the difference between TS/JS and, say, Java 
+because the TS solution would fail with Java because of Out-of-Bounds errors.

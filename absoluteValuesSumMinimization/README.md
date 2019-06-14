@@ -9,14 +9,6 @@ Given a sorted array of integers a, find an integer x from a such that the value
 is the smallest possible (here abs denotes the absolute value).
 If there are several possible answers, output the smallest one.
 
-**Added by VH**
-
-The examples below are not sorted. When they are sorted, we get different answers. I
-included a sort statement in the code that I've uploaded for this algorithm, and
-a full calculation of the sums for the four-, five- and six-item arrays, which
-show which answer is correct for the test cases. 
-
-
 **Example**
 
 For a = [2, 4, 7], the output should be
@@ -55,3 +47,13 @@ A non-empty array of integers, *sorted in ascending order.*
 -106 ≤ a[i] ≤ 106.
 
 - **[output] integer**
+
+**Notes**
+
+Solved: *Yes* (I think)
+
+The examples above are not sorted. When they are sorted, we get different answers. I
+included a sort statement in the code that I've uploaded for this algorithm, and
+a full calculation of the sums for the four-, five- and six-item arrays, which
+show which answer is correct for the test cases. I asked the instructor about this
+on the Udemy course page. No response yet. 

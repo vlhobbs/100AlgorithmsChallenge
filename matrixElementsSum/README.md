@@ -45,3 +45,7 @@ Thus, the answer is 1 + 5 + 1 + 2 = 9.
 0 ≤ matrix[i][j] ≤ 10.
 
 **[output] integer**
+
+**Notes**
+
+Solved: *Yes*

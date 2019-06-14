@@ -33,10 +33,13 @@ A string containing at least one digit.
 - **[output] integer**
 The element in a that occurs in the array more than once and has the minimal index for its second occurrence. If there are no such elements, return -1.
 
-***Solution notes***
+***Notes***
 
-I am not entirely sure that the answer in this would work on codefights,
-because the final test has a thousand items in the array and that kept timing out. I used an adaptation of my Java answer from that question. 
+Solved: *Yes*
+
+I am not entirely sure that the answer in the video for this would work on codefights,
+because the final test has a thousand items in the array and that kept timing out.
+I used an adaptation of my Java answer from that question. 
 
 - If array is one or zero items, return -1 (no possible duplicates)
 

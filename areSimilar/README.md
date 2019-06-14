@@ -56,6 +56,11 @@ true if a and b are similar, false otherwise.
 
 **Notes**
 
+Solved: *Yes*
+
 Credit for making a deep copy of an array:
 
 https://www.codementor.io/avijitgupta/deep-copying-in-js-7x6q8vh5d
+
+Instructor solution doesn't use a deep copy, but I feel like this is a
+useful thing to have anyway. 

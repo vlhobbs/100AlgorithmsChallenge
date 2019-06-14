@@ -33,6 +33,10 @@ A string containing at least one digit.
 
 - **[output] char**
 
+**Notes**
+
+Solved: *Yes*
+
 Idea: Convert to chararray and check each value when converted to number. 
 
 Using isNaN() on the converted value was easiest way.

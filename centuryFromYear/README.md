@@ -29,3 +29,9 @@ A positive integer, designating the year.
 - **[output] integer**
 
 The number of the century the year is in.
+
+**Notes**
+
+Solved: *Yes*
+
+Math.floor() is another way to get an integer component of a quotient. 

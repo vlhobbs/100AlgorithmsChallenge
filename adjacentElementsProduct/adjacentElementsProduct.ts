@@ -10,3 +10,7 @@ function adjacentElementsProduct(inputArray: number[]): number {
     }
     return largest;
 }
+
+console.log(adjacentElementsProduct([0, 1, 2]));
+console.log(adjacentElementsProduct([1000, -1000]))
+console.log(adjacentElementsProduct([-1,2,-3,4,-5,6]))

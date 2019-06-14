@@ -27,3 +27,10 @@ A non-empty array.
 - **[output] array.string**
 
 Array of the longest strings, stored in the same order as in the inputArray.
+
+**Notes**
+
+Solved: *Yes*
+
+Still want to look at TS solution and decide if I can do it in one pass. Most
+likely with an alternate data type than array.

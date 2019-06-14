@@ -29,3 +29,11 @@ addTwoDigits(n) = 11.
 
     The sum of the first and second digits of the input number.
 
+**Notes**
+
+Solved: *Yes*
+
+Still not sure which of the two would be considered better. Probably
+the one-line solution, but I feel like the longer solution is easier 
+to understand by someone who is just taking a quick glance at a bit 
+of unfamiliar code. 

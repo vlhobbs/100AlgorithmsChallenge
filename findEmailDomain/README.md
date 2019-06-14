@@ -36,6 +36,9 @@ The domain portion of the e-mail.
 
 **Notes**
 
-Completed, only requires the index of the last @, then a slice of that index + 1 to 
+Solved: *Yes*
+
+Only requires the index of the last @, then a slice of that index + 1 to 
 create. Only works if e-mail is valid, would need additional logic for possibility 
-of invalid e-mail.
+of invalid e-mail. I am fairly sure an actual e-mail with multiple @ symbols would
+be rejected anyway.

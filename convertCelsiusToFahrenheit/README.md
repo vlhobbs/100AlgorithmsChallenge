@@ -11,3 +11,10 @@ Don't worry too much about the function and return statements as they will be co
 -   celsiusToFahrenheit(-30) returns -22;
 -   celsiusToFahrenheit(-10) returns 14;
 -   celsiusToFahrenheit(0) returns 32;
+
+**Notes**
+
+Solved: *Yes*
+
+The readme was obviously taken from another site. I didn't define that other
+variable b/c we only need to return the value.

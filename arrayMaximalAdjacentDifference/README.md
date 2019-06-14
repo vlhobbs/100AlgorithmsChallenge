@@ -28,5 +28,10 @@ arrayMaximalAdjacentDifference(inputArray) = 3.
 
 The maximal absolute difference.
 
-(Java answer is similar to TS answer, just have to pay more attention
-to the index because it can overflow)
+**Notes**
+
+Solved: *Yes*
+
+Java answer is similar to TS answer, just have to pay more attention
+to the index because it can overflow. Need to watch video and see
+if I can improve this.

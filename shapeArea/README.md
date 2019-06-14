@@ -28,3 +28,9 @@ shapeArea(n) = 13.
 - **[output] integer**
 
 The area of the n-interesting polygon.
+
+**Notes**
+
+Solved: *Yes*
+
+I did this one on Codefights first - the image in the course github is broken. Let's hope that we can see it in the video. 

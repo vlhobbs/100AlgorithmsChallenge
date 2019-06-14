@@ -31,3 +31,11 @@ Guaranteed constraints:
 **[output] integer**
 
 The sum of the two inputs.
+
+**Notes**
+
+Solved: *Yes*
+
+The second solution uses the rest syntax in TS, which is nice to know.
+Am not sure if there is a similar function in Java/C#, something to
+look into.

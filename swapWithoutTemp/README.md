@@ -26,6 +26,8 @@ An array of values, with the new value of a coming before the new value of b. (T
 
 **Notes**
 
+Solved: *Yes*
+
 The numbers start with these properties:
 - (a + b) - b = a
 - (a + b) - a = b

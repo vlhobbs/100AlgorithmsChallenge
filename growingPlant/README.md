@@ -40,4 +40,10 @@ A positive integer representing the threshold.
 
 The number of days that it will take for the plant to reach/pass desiredHeight (including the last day in the total count).
 
-I don't know how to articulate this question. Say the answer is 1000 and the plant grows 1000 meters in one day, unlikely as that sounds. Is the answer 1 or 2, counting the night? I am guessing 1. That's what I am going to go with.
+**Notes**
+
+Solved: *Yes*
+
+If it grows during the day and then declines at night, then I am assuming that the value for EOD 1 is
+the daily growth rate, then the value for EON 1 is that minus nightly shrinkage rate. So if the
+goal = daily growth, it takes one day, because it doesn't say that it can't shrink immediately after.

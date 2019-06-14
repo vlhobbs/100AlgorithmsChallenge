@@ -17,7 +17,6 @@ function areSimilar(a: number[], b: number[]): boolean {
         if (aOrig[j] != bOrig[j]){
             differences++;
         }
-        console.log(differences);
         if (differences > 2){
             return false;
         }

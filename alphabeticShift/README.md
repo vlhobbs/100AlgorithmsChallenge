@@ -28,3 +28,13 @@ Non-empty string consisting of lowercase English characters.
 - **[output] string**
 
 The result string after replacing all of its characters.
+
+**Notes**
+
+Solved: *Yes*
+
+I added ASCII logic to use uppercase letters just because I
+like adding logic for such cases, but I could have also had
+the whole thing convert to lowercase in all cases. I had these
+cases drilled into my head by Foundations so many times that I
+hate omitting them. But I need to learn not to overprogram.

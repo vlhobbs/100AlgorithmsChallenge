@@ -31,4 +31,8 @@ An array of distinct non-negative integers.
 
 - **[output] integer**
 
+**Notes**
+
+Solved: *Yes*
+
 The minimal number of statues that need to be added to existing statues such that it contains every integer size from an interval [L, R] (for some L, R) and no other sizes. So the easiest way is to sort the array, find the smallest value and the largest value and then add +1 to return if any of the values between it aren't found.

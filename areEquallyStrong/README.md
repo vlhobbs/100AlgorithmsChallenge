@@ -58,3 +58,9 @@ A non-negative integer representing the heaviest weight your friend can lift wit
 - **[output] boolean**
 
 true if you and your friend are equally strong, false otherwise.
+
+**Notes**
+
+Solved: *Yes*
+
+Fairly simple, did it using arrays instead of four ints
