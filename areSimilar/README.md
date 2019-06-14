@@ -53,3 +53,9 @@ b.length = a.length,
 **[output] boolean**
 
 true if a and b are similar, false otherwise.
+
+**Notes**
+
+Credit for making a deep copy of an array:
+
+https://www.codementor.io/avijitgupta/deep-copying-in-js-7x6q8vh5d

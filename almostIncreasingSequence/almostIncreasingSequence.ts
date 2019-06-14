@@ -1,8 +1,6 @@
 function almostIncreasingSequence(sequence: number[]): boolean {
     let outOfSync = 0;
     for (let index = 0; index < sequence.length; index++) {
-        console.log(sequence[index]);
-        console.log(sequence[index-1]);
         if (sequence[index] <= sequence[index - 1]) {
             outOfSync++;
         if (sequence[index] <= sequence[index - 2] && sequence[index+ 1 ] <= sequence[index - 1]){
