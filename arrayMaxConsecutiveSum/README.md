@@ -37,3 +37,20 @@ An integer (not greater than the length of inputArray).
 -   **[output] integer**
 
 The maximal possible sum.
+
+**Notes**
+
+Solved: *Yes*
+
+I am still trying to understand the sort builtin for typescript. This line will sort from greatest to least: 
+
+-arr.sort(a,b => -(a-b));
+
+For the non-negated version, it sorts least to greatest, and you want a negative if a is less than b, a positive
+if a is greater than b, and a 0 if they are equal. (Is this a stable sort? I'm going to have to look that up.)
+Obviously negating it will reverse the order.
+
+I just used the add function for #2 that could take any number of parameters, then found out that I needed to modify it 
+to use an array for slice. After some research I figured out that I could use arr.reduce((a,b) => a+b) just as easily.
+Although I did add the default value, just to be safe in case of a bounds error.
+

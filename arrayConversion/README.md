@@ -25,8 +25,28 @@ We have [1, 2, 3, 4, 5, 6, 7, 8] -> [3, 7, 11, 15] -> [21, 165] -> [186], so the
 
 *Guaranteed constraints:*
 
-1 ≤ inputArray.length ≤ 20,
+1 ≤ inputArray.length ≤ 32,
 
 -9 ≤ inputArray[i] ≤ 99.
 
 - **[output] integer**
+
+**Notes**
+
+Solved: *Yes*
+
+There are always (2^k) elements in the array. Otherwise, you end up with NaN. It would be possible to 
+write code to "pad" the original array to a workable value with 0s and 1s, I think, so that the result would not change, but
+that's going to be a lot more challenging and is probably a good project for another day. Also, I edited the inputArray.length
+for the simple reason that a length of 20 would not work for this, 20 is not a power of 2. The closest number after 20 that 
+works is 32.
+
+I'm embarrassed to say it, but this one took me a very long time to solve because I forgot an important operator. When I 
+was trying to write this code, I couldn't figure out why Quokka was not showing me any answers (even a test console log at the top
+of the file that should have just showed "test" in the console was not working.) After a while, I eventually searched for the 
+problem and realized that the function was not completing; I had an endless loop somewhere.
+
+It took some debugging, but eventually I realized that the problem was in my sum and product subfunctions. I had written "i + 2"
+in the for loops instead of "i += 2" - I usually just use "i++" because I usually only step through one at a time, and that 
+threw me off. So the loops were never completing and the program was never rendering anything. 
+
