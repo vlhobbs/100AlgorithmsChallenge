@@ -28,3 +28,9 @@ arrayPreviousLess(items) = [-1, 3, -1, 2, 4].
 - **[output] array.integer**
 
     Array containing answer values computed as described above.
+
+**Notes**
+
+Solved: *Yes*
+
+Both the commented solution and the uncommented solution work, but I was taught not to use break statements unless absolutely necessary so figured out how to do the same thing with a while loop instead. I did not end up using unshift(). It appears that if you wanted to use that solution, you would have to add the values to the original array, then stop the iteration from going all the way to the start and return the first half of the array. Might try it later.

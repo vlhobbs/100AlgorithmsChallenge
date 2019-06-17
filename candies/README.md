@@ -34,6 +34,7 @@ candies(n, m) = 9.
 
     Solved: *Yes*
 
-    This is asking for the integer quotient of m/n, emultiplied by m. 
+    This is asking for the integer quotient of m/n, multiplied by m. 
     In TS syntax (possibly JS) the line ~~(m/n) will get you the integer quotient. Also 
-    it respects proper precedence. 
+    it respects proper precedence. Math.floor() will do the same thing - round down to
+    the integer value.

@@ -1,6 +1,3 @@
-console.log("Test");
-
-
 function arrayConversion(inputArray: number[]): number {
     let iteration:number = 1;
     let inputLength = inputArray.length;
