@@ -7,7 +7,7 @@ function swapWithoutTemp(a: number, b: number): number[] {
     //b now equals former value of a
     //a = subtract former value of a from sum
     a = a - b; 
-    //a now equals former value of a
+    //a now equals former value of b
     
     console.log("a = " + a + " and b = " + b);
     return [a,b];

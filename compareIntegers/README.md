@@ -33,3 +33,7 @@ Compare two integers given as strings.
 
 -   **[output] string**
     'less' if int(a) < int(b), 'equal' if int(a) = int(b), and 'greater' if int(a) > int(b), where int(x) is equal to integer represented by the string x.
+
+    **Notes**
+
+    Solved: *Yes*
