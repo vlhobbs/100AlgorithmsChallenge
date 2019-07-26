@@ -38,3 +38,9 @@ A non-empty array of strings.
 0 ≤ inputArray[i].length ≤ 10.
 
 **[output] array.string**
+
+**Notes**
+
+Solved: *Yes*
+
+Used a simple insertion sort since these are fairly short in length.
