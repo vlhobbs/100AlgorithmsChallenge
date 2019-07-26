@@ -47,3 +47,7 @@ For each valid i, ratings[i] is a non-empty array that represents the last ratin
 - [output] array.integer
 
 0-based indices of the Pros that should be reviewed, sorted in ascending order.
+
+**Notes**
+
+Solved: *Yes*
