@@ -10,3 +10,7 @@ Write a function that splits an array (first argument) into groups the length of
 
 **Hints**
 -   slice()
+
+**Notes**
+
+Solved: *Yes*
